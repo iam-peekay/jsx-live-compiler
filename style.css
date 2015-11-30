@@ -1,0 +1,46 @@
+header {
+  display: block;
+  overflow: auto;
+  background-color: #8D99AE;
+  color: #2B2D42;
+  font-size: 24px;
+  margin: 10px;
+  padding: 10px;
+}
+
+body {
+  margin: 10px;
+  padding: 10px;
+  font-family: Monospace;
+  background-color: #2B2D42;
+}
+
+.container {
+  height: 80vh;
+  display:flex;
+}
+
+.center {
+  text-align: center;
+}
+
+.error {
+  color: #D90429;
+  font-size: 14px;
+  margin: 10px;
+}
+
+pre {
+  background-color: #EDF2F4;
+}
+
+pre, textarea {
+  width: 40%;
+  font-family: Monospace;;
+  font-size: 14px;
+  margin: 10px;
+  padding: 10px;
+  color: #222;
+  overflow: hidden;
+  line-height: 14px;
+}
